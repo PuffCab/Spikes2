@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+  margin: 0;
+  padding: 20px;
+}
+/* Head section */
+h1 {
+  color: blue;
+  text-align: center;
+  &:hover {
+    background-color: yellow;
+  }
+}
+h1:active {
+  background-color: red;
+}
+
+.container {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: aqua;
+  border-radius: 8px;
+  box-shadow: 0 0 10px grey;
+}
+
+/* visit places */
+/* .visit-places {
+  background-color: beige;
+} */
+main {
+  background-color: beige !important;
+}
+
+figure {
+  background-color: cadetblue;
+}
+section {
+  background-color: chocolate;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  /* height: 900px; */
+}
+/* #image {
+  width: 500px;
+} */
+
+#first-element {
+  color: purple;
+}
+
+ul li:nth-child(1) {
+  color: coral;
+}
+
+/* Navbar */
