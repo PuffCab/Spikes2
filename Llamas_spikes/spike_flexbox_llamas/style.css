@@ -1,0 +1,67 @@
+body {
+  font-family: "Genos", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 10px; */
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  background-color: aqua;
+  margin: 10px;
+  /* animation-name: myAnimation; */
+  /* animation-duration: 2s;
+  animation-iteration-count: infinite; */
+  /* animation: myAnimation 2s infinite; */
+}
+
+.item > p {
+  font-size: 60px;
+  color: magenta;
+}
+
+.container :nth-child(2) {
+  flex-grow: 2;
+}
+.container :nth-child(5) > p {
+  align-self: flex-end;
+  animation: numberAnimation 3s infinite;
+}
+
+@keyframes myAnimation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@keyframes numberAnimation {
+  0% {
+    background-color: red;
+  }
+  20% {
+    font-size: 30px;
+  }
+  40% {
+    font-size: 50px;
+  }
+
+  60% {
+    font-size: 60%;
+  }
+  80% {
+    font-size: 40%;
+    background-color: green;
+  }
+}
