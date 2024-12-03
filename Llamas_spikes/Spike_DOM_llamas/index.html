@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1 id="h1-id" class="blue-h2">DOM Manipulation 🦙's</h1>
+    <button onclick="changeColor()">Change Color</button>
+    <nav>
+      <ul>
+        <li class="link" style="color: blue">Home</li>
+        <li class="link">About</li>
+      </ul>
+      <button onclick="changeText()">Change Text</button>
+    </nav>
+    <div class="img-container"></div>
+    <img src="codingLaugh.png" " />
+    <div class="radio-container">
+      <input type="radio" name="radio" id="red" value="red" />
+      <label for="red">red</label>
+      <input type="radio" name="radio" id="green" value="green" />
+      <label for="green">green</label>
+      <input type="radio" name="radio" id="purple" value="purple" />
+      <label for="purple">purple</label>
+      <h3>My favorite color to wear today is:</h3>
+      <button onclick="findColor()">find color</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
